@@ -1,5 +1,5 @@
 {
-  "name": "Pixel Art Frame Documentation",
+  "name": "docs",
   "version": "0.0.1",
   "description": "The documentation for the Pixel Art Frame project",
   "main": "index.js",
@@ -7,7 +7,7 @@
     "name": "Vincent Bean",
     "email": "info@vincentbean.com"
   },
-  "repository": "docs/Pixel Art Frame Documentation",
+  "repository": "pixel-art-frame/docs",
   "scripts": {
     "dev": "vuepress dev src",
     "build": "vuepress build src"
