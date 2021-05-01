@@ -10,13 +10,15 @@ module.exports = {
    */
   description: description,
 
+  host: 'localhost',
+
   /**
    * Extra tags to be injected to the page HTML `<head>`
    *
    * ref：https://v1.vuepress.vuejs.org/config/#head
    */
   head: [
-    ['meta', { name: 'theme-color', content: '#3eaf7c' }],
+    ['meta', { name: 'theme-color', content: '#3730A3' }],
     ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
     ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }]
   ],
@@ -27,33 +29,49 @@ module.exports = {
    * ref：https://v1.vuepress.vuejs.org/theme/default-theme-config.html
    */
   themeConfig: {
-    repo: '',
-    editLinks: false,
-    docsDir: '',
-    editLinkText: '',
-    lastUpdated: false,
+    repo: 'pixel-art-frame/firmware',
+    repoLabel: 'GitHub',
+    editLinks: true,
+    docsRepo: 'pixel-art-frame/docs',
+    docsBranch: 'main',
+    editLinkText: 'Help improve this page!',
+    lastUpdated: 'Last Updated',
     nav: [
       {
-        text: 'Guide',
-        link: '/guide/',
+        text: 'User Guide',
+        link: '/1.x/user/',
       },
       {
-        text: 'Config',
-        link: '/config/'
+        text: 'Technical Documentation',
+        link: '/1.x/technical/'
       },
       {
-        text: 'VuePress',
-        link: 'https://v1.vuepress.vuejs.org'
+        text: 'Pixel Art Frame',
+        link: 'https://pixelartframe.com'
       }
     ],
     sidebar: {
-      '/guide/': [
+      '/1.x/': [
         {
-          title: 'Guide',
-          collapsable: false,
+          title: 'About',
+          path: '/1.x/about',
+          children: []
+        },
+        {
+          title: 'Building',
+          path: '/1.x/user/building',
           children: [
-            '',
-            'using-vue',
+            '/1.x/user/building/hardware',
+            '/1.x/user/building/software',
+            '/1.x/user/building/frame',
+          ]
+        },
+        {
+          title: 'Usage',
+          path: '/1.x/user/usage/',
+          children: [
+            '/1.x/user/usage/setup',
+            '/1.x/user/usage/finding_art',
           ]
         }
       ],

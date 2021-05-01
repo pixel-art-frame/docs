@@ -9,7 +9,7 @@
   },
   "repository": "pixel-art-frame/docs",
   "scripts": {
-    "dev": "vuepress dev src",
+    "dev": "vuepress dev src --host localhost",
     "build": "vuepress build src"
   },
   "license": "MIT",
