@@ -47,3 +47,7 @@ A script / tool to do this automatically from a PC would be great.
 - mDNS
 
 To easily access the web interface.
+
+- Transitions
+
+For example fade out / fade in

@@ -38,14 +38,6 @@ module.exports = {
     lastUpdated: 'Last Updated',
     nav: [
       {
-        text: 'User Guide',
-        link: '/1.x/user/',
-      },
-      {
-        text: 'Technical Documentation',
-        link: '/1.x/technical/'
-      },
-      {
         text: 'Pixel Art Frame',
         link: 'https://pixelartframe.com'
       }
@@ -72,6 +64,16 @@ module.exports = {
           children: [
             '/1.x/user/usage/setup',
             '/1.x/user/usage/finding_art',
+          ]
+        },
+        {
+          title: 'Technical',
+          path: '/1.x/technical/',
+          children: [
+            '/1.x/technical/api',
+            '/1.x/technical/files',
+            '/1.x/technical/web',
+            '/1.x/technical/states',
           ]
         }
       ],
