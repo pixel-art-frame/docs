@@ -308,7 +308,7 @@ To get the RGB565:
 
 `Rgb565 = (((red & 0xf8)<<8) + ((green & 0xfc)<<3)+(blue>>3))`
 
-[Want to know more about RGB565?](Want to know more?)
+[Want to know more about RGB565?](http://www.barth-dev.de/online/rgb565-color-picker/)
 
 - `size` Text size, defaults to 1
 

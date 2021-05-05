@@ -29,6 +29,7 @@ You can use a tool like [ezgif](https://ezgif.com/) to unoptimize the image.
 There are multiple guides on creating pixel art on the internet.
 
 For example:
+- [Pixel Art - Photoshop Tutorial](https://www.youtube.com/watch?v=hFZBUWHVSrM)
 - [How to start making pixel art #1 - An absolute beginner’s guide](https://medium.com/pixel-grimoire/how-to-start-making-pixel-art-2d1e31a5ceab)
 - [How to Make Pixel Art: The Ultimate Beginner's Guide](https://www.makeuseof.com/how-to-make-pixel-art-beginners-guide/)
 - [Best Tools and Tricks from a Pixel Art Guru](https://80.lv/articles/best-tools-tricks-for-pixel-art/)
